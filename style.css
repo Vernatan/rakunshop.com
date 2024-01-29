@@ -31,21 +31,21 @@ body {
 .gradient {
   width: 100%;
   height: 100%;
-  background-color: #ccff99;
+  background-color: hsl(177.7,100%,15.5%);
   background-image:
-    radial-gradient(at 83% 69%, hsla(280, 67%, 78%, 1) 0px, transparent 50%),
-    radial-gradient(at 9% 70%, hsla(18, 81%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 61% 52%, hsla(153, 75%, 65%, 1) 0px, transparent 50%),
-    radial-gradient(at 28% 93%, hsla(321, 74%, 60%, 1) 0px, transparent 50%),
-    radial-gradient(at 34% 6%, hsla(216, 89%, 66%, 1) 0px, transparent 50%),
-    radial-gradient(at 51% 86%, hsla(295, 97%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 32% 55%, hsla(295, 99%, 66%, 1) 0px, transparent 50%);
+    radial-gradient(at 83% 69%, hsl(177.7,100%,15.5%) 0px, transparent 50%),
+    radial-gradient(at 9% 70%, hsl(177.7,100%,15.5%) 0px, transparent 50%),
+    radial-gradient(at 61% 52%, hsl(177.7,100%,15.5%) 0px, transparent 50%),
+    radial-gradient(at 28% 93%, hsl(177.7,100%,15.5%) 0px, transparent 50%),
+    radial-gradient(at 34% 6%, hsl(177.7,100%,15.5%) 0px, transparent 50%),
+    radial-gradient(at 51% 86%, hsl(177.7,100%,15.5%) 0px, transparent 50%),
+    radial-gradient(at 32% 55%, hsl(177.7,100%,15.5%) 0px, transparent 50%);
 }
 
 .gradient-content {
   padding: 2rem;
   width: 92%;
-  color: hsl(240, 54%, 15%);
+  color: #ff0707;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -64,13 +64,13 @@ body {
 }
 
 .gradient-content span {
-  color: #4776E6;
+  color: #003fd6;
 }
 
 .form-section {
   padding: 40px 50px 30px;
   width: 550px;
-  background-color: #fff;
+  background-color: #74f8ff;
 }
 
 .form-section form {
@@ -95,7 +95,7 @@ body {
   width: 100%;
   color: hsl(240, 54%, 15%);
   padding: 0.3rem;
-  border: 2px solid #ccc;
+  border: 2px solid #8c0000;
   border-radius: 0.3rem;
   outline: none;
 }
@@ -107,7 +107,7 @@ body {
 
 .send-btn {
   color: white;
-  background: linear-gradient(to right, #4776E6 0%, #7f47e6 100%);
+  background: linear-gradient(to right, #ff5f5f 0%, #6ab7ffe7 100%);
   padding: 6px 20px;
   border: none;
   border-radius: 5px;
@@ -125,7 +125,7 @@ body {
 .result-container p{
   font-size: 0.875rem;
   font-weight: 500;
-  color: #3461ca;
+  color: #01a8ac;
   opacity: 0;
   transition: all 0.2s ease;
 }
